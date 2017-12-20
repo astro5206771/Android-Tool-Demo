@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ai.ipu.filetool.MainActivity" >
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hello_world" />
+    
+    <Button 
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"/>
+    
+    <TextView 
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="内容"/>
+    
+     <Button 
+        android:id="@+id/btn_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read"
+        />
+     
+     <Button 
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        />
+     
+     <Button 
+         android:id="@+id/btn_saveExternal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="saveExternal"/>
+     
+	<Button 
+         android:id="@+id/btn_readExternal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="readExternal"/>
+	
+	<Button 
+         android:id="@+id/btn_deleteExternal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="deleteExternal"/>
+	
+	<Button 
+	    android:id="@+id/btn_clearExternal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="clearExternal"/>
+</LinearLayout>
